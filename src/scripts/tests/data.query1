@@ -1,0 +1,1 @@
+select s_name,s_address,s_city from s3object where s_nation = 'UNITED STATES'
