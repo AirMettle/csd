@@ -1,0 +1,6 @@
+[submodule "spdk-csd"]
+	path = src/spdk
+	url = https://github.com/AirMettle/spdk-csd
+[submodule "src/qemu"]
+	path = src/qemu
+	url = https://github.com/AirMettle/qemu-csd
