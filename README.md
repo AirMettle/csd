@@ -4,6 +4,48 @@ The NVMe-Object SSD computational storage device (CSD) introduces key-value (KV)
 
 This repository contains modifications to QEMU and SPDK to support the CSD.
 
+## Quick Start
+
+### Cloning Repository
+
+This repository makes use of [git submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules).
+To ensure all necessary code is present use the `--recurse-submodules` option to `git clone`:
+
+~~~{sh}
+git clone --recurse-submodules https://github.com/AirMettle/csd
+~~~
+
+If you have already performed a standard `git clone`, run the following
+command in the repository root directory to update the submodules:
+
+~~~{sh}
+git submodule update --init --recursive
+~~~
+
+### Build Instructions
+
+#### QEMU
+
+~~~{sh}
+cd src/qemu
+./build.sh
+~~~
+
+#### SPDK
+
+~~~{sh}
+cd src/spdk
+./configure
+make
+~~~
+
+#### KVCLI
+
+~~~{sh}
+cd src/kvcli
+make
+~~~
+
 ## Documentation
 
 ### Design documents
