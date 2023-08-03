@@ -21,7 +21,7 @@ This document provides an overview of the components of the CSD project and how 
 
 The following diagram outlines the components of the project:
 
-![Design diagram showing distinction of Host and Guest OS](./assets/design_diagram.png)
+![Design diagram showing distinction of Host and Guest OS](./assets/design_diagram.svg)
 
 ## Host OS
 
