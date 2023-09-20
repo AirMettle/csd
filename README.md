@@ -63,4 +63,4 @@ make
 
 ## License
 
-See [LICENSE](/LICENSE) for more information.
+See [LICENSE](/LICENSE.md) for more information.
